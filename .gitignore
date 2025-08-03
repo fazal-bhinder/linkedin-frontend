@@ -1,3 +1,34 @@
+# Node modules
 /node_modules
+
+# Environment variables
 .env
-/.next/
+.env.*  # Also ignore .env.local, .env.development, etc.
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# OS files
+.DS_Store
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Optional: Lint cache
+.eslintcache
+
+# Optional: Local data
+*.local
+
+# Optional: TypeScript cache
+*.tsbuildinfo
